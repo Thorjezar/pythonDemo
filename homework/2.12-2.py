@@ -1,4 +1,4 @@
-#coding=utf-8
+# coding=utf-8
 i = 0
 while i <= 9:
     j = 1
