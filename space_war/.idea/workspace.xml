@@ -11,36 +11,19 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/space_war$1_2.coverage" NAME="1.2显示玩家飞机 Coverage Results" MODIFIED="1604478669390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/space_war$airforce.coverage" NAME="airforce Coverage Results" MODIFIED="1604646223011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/space_war$1_6.coverage" NAME="1.6显示敌机 Coverage Results" MODIFIED="1604560615080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/space_war$2_0.coverage" NAME="2.0代码优化：抽取基类 Coverage Results" MODIFIED="1604630597756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/space_war$1_4.coverage" NAME="1.4飞机大战面向对象 Coverage Results" MODIFIED="1604540632421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/space_war$1_8_.coverage" NAME="1.8代码优化 删除越界子弹 Coverage Results" MODIFIED="1604563408773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/space_war$1_9.coverage" NAME="1.9敌机发射子弹 Coverage Results" MODIFIED="1604565059936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/space_war$1_9.coverage" NAME="1.9敌机发射子弹 Coverage Results" MODIFIED="1604625963571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/space_war$1_7.coverage" NAME="1.7控制敌机左右移动 Coverage Results" MODIFIED="1604561373201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/space_war$1_1.coverage" NAME="1.1 Coverage Results" MODIFIED="1604477250848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/space_war$1_3.coverage" NAME="1.3控制飞机移动 Coverage Results" MODIFIED="1604480094542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/space_war$1_5.coverage" NAME="1.5发射子弹 Coverage Results" MODIFIED="1604559956819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1.9敌机发射子弹.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1.9敌机发射子弹.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="206" column="10" lean-forward="true" selection-start-line="206" selection-start-column="10" selection-end-line="206" selection-end-column="10" />
-              <folding>
-                <element signature="e#341#354#0" expanded="true" />
-                <element signature="e#474#1420#0" expanded="false" />
-                <element signature="e#1452#2345#0" expanded="false" />
-                <element signature="e#2373#2808#0" expanded="false" />
-                <element signature="e#2841#3294#0" expanded="false" />
-                <element signature="e#3328#4045#0" expanded="false" />
-                <element signature="e#4063#4703#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,6 +44,8 @@
         <option value="$PROJECT_DIR$/1.7控制敌机左右移动.py" />
         <option value="$PROJECT_DIR$/1.8代码优化 删除越界子弹.py" />
         <option value="$PROJECT_DIR$/1.9敌机发射子弹.py" />
+        <option value="$PROJECT_DIR$/2.0代码优化：抽取基类.py" />
+        <option value="$PROJECT_DIR$/airforce.py" />
       </list>
     </option>
   </component>
@@ -92,7 +77,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,14 +84,11 @@
               <item name="space_war" type="b2602c69:ProjectViewProjectNode" />
               <item name="space_war" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="space_war" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,45 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1.9敌机发射子弹">
-    <configuration name="1.5发射子弹" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="space_war" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.5发射子弹.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="1.6显示敌机" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="space_war" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.6显示敌机.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.airforce">
     <configuration name="1.7控制敌机左右移动" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,20 +170,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="2.0代码优化：抽取基类" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="space_war" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.0代码优化：抽取基类.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="airforce" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="space_war" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/airforce.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.1.5发射子弹" />
-      <item index="1" class="java.lang.String" itemvalue="Python.1.6显示敌机" />
-      <item index="2" class="java.lang.String" itemvalue="Python.1.7控制敌机左右移动" />
-      <item index="3" class="java.lang.String" itemvalue="Python.1.8代码优化 删除越界子弹" />
-      <item index="4" class="java.lang.String" itemvalue="Python.1.9敌机发射子弹" />
+      <item index="0" class="java.lang.String" itemvalue="Python.1.7控制敌机左右移动" />
+      <item index="1" class="java.lang.String" itemvalue="Python.1.8代码优化 删除越界子弹" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1.9敌机发射子弹" />
+      <item index="3" class="java.lang.String" itemvalue="Python.2.0代码优化：抽取基类" />
+      <item index="4" class="java.lang.String" itemvalue="Python.airforce" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.1.9敌机发射子弹" />
-        <item index="1" class="java.lang.String" itemvalue="Python.1.8代码优化 删除越界子弹" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1.7控制敌机左右移动" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1.6显示敌机" />
-        <item index="4" class="java.lang.String" itemvalue="Python.1.5发射子弹" />
+        <item index="0" class="java.lang.String" itemvalue="Python.airforce" />
+        <item index="1" class="java.lang.String" itemvalue="Python.2.0代码优化：抽取基类" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1.9敌机发射子弹" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1.8代码优化 删除越界子弹" />
+        <item index="4" class="java.lang.String" itemvalue="Python.1.7控制敌机左右移动" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +250,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4174107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13326226" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" x="553" y="93" width="248" height="896" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -293,18 +274,40 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/airforce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#547#560#0" expanded="true" />
+            <element signature="e#663#849#0" expanded="false" />
+            <element signature="e#878#1224#0" expanded="false" />
+            <element signature="e#1270#2016#0" expanded="false" />
+            <element signature="e#2051#3002#0" expanded="false" />
+            <element signature="e#3032#3111#0" expanded="false" />
+            <element signature="e#3143#3427#0" expanded="false" />
+            <element signature="e#3464#3751#0" expanded="false" />
+            <element signature="e#4002#4899#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.9敌机发射子弹.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1.1创建窗口.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
-          <folding>
-            <element signature="e#30#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -312,9 +315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="832">
           <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="e#30#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -322,9 +322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="10" />
-          <folding>
-            <element signature="e#34#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -332,9 +329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="992">
           <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="53" />
-          <folding>
-            <element signature="e#37#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -342,9 +336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
-          <folding>
-            <element signature="e#30#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -352,9 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="832">
           <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="e#30#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -362,9 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1696">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#34#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -372,9 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="27" selection-end-column="10" />
-          <folding>
-            <element signature="e#30#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -382,9 +364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="832">
           <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="e#30#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,9 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="10" />
-          <folding>
-            <element signature="e#34#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -402,9 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
           <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-          <folding>
-            <element signature="e#37#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -412,9 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="10" />
-          <folding>
-            <element signature="e#37#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,11 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="98" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="10" />
-          <folding>
-            <element signature="e#37#50#0" expanded="false" />
-            <element signature="e#1052#1353#0" expanded="false" />
-            <element signature="e#1387#2104#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -434,10 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="64" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="10" />
-          <folding>
-            <element signature="e#37#50#0" expanded="false" />
-            <element signature="e#1719#2436#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -445,26 +406,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="79" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="181" selection-end-column="10" />
-          <folding>
-            <element signature="e#341#354#0" expanded="true" />
-            <element signature="e#1440#2018#0" expanded="false" />
-            <element signature="e#2516#3233#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.9敌机发射子弹.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="206" column="10" lean-forward="true" selection-start-line="206" selection-start-column="10" selection-end-line="206" selection-end-column="10" />
+        <state relative-caret-position="2688">
+          <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.0代码优化：抽取基类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="49" column="54" lean-forward="true" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airforce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2619">
+          <caret line="232" column="41" lean-forward="true" selection-start-line="232" selection-start-column="41" selection-end-line="232" selection-end-column="41" />
           <folding>
-            <element signature="e#341#354#0" expanded="true" />
-            <element signature="e#474#1420#0" expanded="false" />
-            <element signature="e#1452#2345#0" expanded="false" />
-            <element signature="e#2373#2808#0" expanded="false" />
-            <element signature="e#2841#3294#0" expanded="false" />
-            <element signature="e#3328#4045#0" expanded="false" />
-            <element signature="e#4063#4703#0" expanded="false" />
+            <element signature="e#547#560#0" expanded="true" />
+            <element signature="e#663#849#0" expanded="false" />
+            <element signature="e#878#1224#0" expanded="false" />
+            <element signature="e#1270#2016#0" expanded="false" />
+            <element signature="e#2051#3002#0" expanded="false" />
+            <element signature="e#3032#3111#0" expanded="false" />
+            <element signature="e#3143#3427#0" expanded="false" />
+            <element signature="e#3464#3751#0" expanded="false" />
+            <element signature="e#4002#4899#0" expanded="false" />
           </folding>
         </state>
       </provider>

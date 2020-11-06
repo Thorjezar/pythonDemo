@@ -39,12 +39,16 @@ from pygame.locals import *
 import time   #  如果CPU占用太多，加上sleep
 import random
 
-class HeroPlane(object):   #  定义飞机的类
-    def __init__(self, screen_temp):
-        self.x = 200
-        self.y = 700
+class Base(object):
+    def __init__(self, screen_temp, x, y, image_name):
+        self.x = x
+        self.y = y
         self.screen = screen_temp
-        self.image = pygame.image.load("./feiji/hero1.png")
+        self.image = pygame.image.load("./feiji/" + image_name)
+
+class BasePlane(Base):
+    def __init__(self, screen_temp, x, y, image_name):
+        Base.__init__(self, screen_temp, x, y, image_name)
         self.bullet_list = []   # 存储发射出去的子弹对象的引用
 
     def display(self):
@@ -53,6 +57,12 @@ class HeroPlane(object):   #  定义飞机的类
         for bullet in self.bullet_list:  # 多个子弹的循环发射
             bullet.display()
             bullet.move()
+
+class HeroPlane(BasePlane):   #  定义飞机的类
+    def __init__(self, screen_temp):
+        BasePlane.__init__(self, screen_temp, 200, 700, "hero1.png")   # super().__init__()
+
+
             # 判断子弹越界
             # if bullet.judge():
             #     self.bullet_list.remove(bullet)  这种方法会漏除元素
@@ -76,20 +86,10 @@ class HeroPlane(object):   #  定义飞机的类
     def fire(self):
         self.bullet_list.append(Bullet(self.screen, self.x, self.y))
 
-class EnemyPlane(object):
+class EnemyPlane(BasePlane):
     def __init__(self, screen_temp):
-        self.x = 0
-        self.y = 0
-        self.screen = screen_temp
-        self.image = pygame.image.load('./feiji/enemy0.png')
-        self.dirction = "right" # 控制方向的变量
-        self.bullet_list = []
-
-    def display(self):
-        self.screen.blit(self.image, (self.x, self.y))
-        for bullet in self.bullet_list:
-            bullet.display()
-            bullet.move()
+        self.dirction = "right"
+        BasePlane.__init__(self, screen_temp, 0, 0, "enemy0.png")   # super().__init__()
 
         # 存放需要删除的元素
         needDeleteItem = []
@@ -118,15 +118,14 @@ class EnemyPlane(object):
         if random_num in [11, 22]:
             self.bullet_list.append(EnemyBullet(self.screen, self.x, self.y))
 
-class Bullet(object):
-    def __init__(self, screen_temp, x, y):
-        self.x = x + 40
-        self.y = y - 20
-        self.screen = screen_temp
-        self.image = pygame.image.load("./feiji/bullet.png")
+class BaseBullet(Base):
 
     def display(self):  # 显示
         self.screen.blit(self.image, (self.x, self.y))
+
+class Bullet(BaseBullet):
+    def __init__(self, screen_temp, x, y):
+        BaseBullet.__init__(self, screen_temp, x + 40, y - 20, "bullet.png")
 
     def move(self):  # 移动
         self.y -= 5
@@ -137,15 +136,9 @@ class Bullet(object):
         else:
             return False
 
-class EnemyBullet(object):
+class EnemyBullet(BaseBullet):
     def __init__(self, screen_temp, x, y):
-        self.x = x + 25    # 往右+
-        self.y = y + 40    #往下+
-        self.screen = screen_temp
-        self.image = pygame.image.load("./feiji/bullet1.png")
-
-    def display(self):  # 显示
-        self.screen.blit(self.image, (self.x, self.y))
+        BaseBullet.__init__(self, screen_temp, x + 25, y + 40, "bullet1.png")
 
     def move(self):  # 移动
         self.y += 4
